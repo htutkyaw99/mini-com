@@ -9,7 +9,7 @@ type Props = {
   qty: number;
 };
 
-const Card = ({ title, price, qty, inStock, image }: Props) => {
+const Card = ({ title, qty, inStock, image }: Props) => {
   return (
     <div className="bg-slate-100 shadow-lg w-full min-w-[130px] rounded-lg relative">
       <div className="bg-slate-300 min-h-32 relative rounded-t-lg overflow-hidden">
@@ -21,12 +21,6 @@ const Card = ({ title, price, qty, inStock, image }: Props) => {
             className="object-cover object-center"
           />
         )}
-        {/* <Image
-          src={image}
-          alt={title}
-          fill
-          className="object-cover object-center"
-        /> */}
       </div>
       <div className="p-4 space-y-2">
         <h6 className="text-[15px]">{title}</h6>

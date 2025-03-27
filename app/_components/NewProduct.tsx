@@ -1,5 +1,4 @@
 import React from "react";
-import Card from "./Card";
 import Wrapper from "./Wrapper";
 // import { products } from "../_lib/data";
 import { supabase } from "../_utils/supabase/supabase";
