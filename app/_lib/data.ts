@@ -1,0 +1,42 @@
+export const products = [
+  {
+    id: "1",
+    title: "ကတုံး ဖော့",
+    price: 10200,
+    qty: 16,
+    image: "/images/gatone.jpg",
+    inStock: true,
+  },
+  {
+    id: "2",
+    title: "မင်းသီဟ ကြွပ်ပြား",
+    price: 950,
+    qty: 150,
+    image: "/images/minthiha.jpg",
+    inStock: false,
+  },
+  {
+    id: "3",
+    title: "10 ခုပါ ရေပြွတ်",
+    price: 8500,
+    qty: 36,
+    image: "/images/yaypyot.jpg",
+    inStock: true,
+  },
+  {
+    id: "4",
+    title: "မက်မွန်သီး",
+    price: 9200,
+    qty: 20,
+    image: "/images/matmon.jpg",
+    inStock: false,
+  },
+  {
+    id: "5",
+    title: "200 ပါ ချိုချဉ်",
+    price: 12700,
+    qty: 12,
+    image: "/images/200chochin.jpg",
+    inStock: true,
+  },
+];
