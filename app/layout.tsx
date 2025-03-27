@@ -3,7 +3,7 @@ import "./globals.css";
 import localFont from "next/font/local";
 
 export const metadata: Metadata = {
-  title: "The Cozy Paws 🐾",
+  title: "Thin commerce 🛍️",
   description: "A minimal e-commerce website.",
 };
 

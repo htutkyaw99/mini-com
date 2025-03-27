@@ -1,9 +1,20 @@
 import React from "react";
-import { products } from "../_lib/data";
+// import { products } from "../_lib/data";
 import Card from "../_components/Card";
 import Link from "next/link";
+import { supabase } from "../_utils/supabase/supabase";
 
-const page = () => {
+const page = async () => {
+  const { data: products, error } = await supabase.from("products").select();
+
+  if (error) {
+    console.log(error);
+  }
+
+  if (!products) {
+    return <div>No products</div>;
+  }
+
   return (
     <div className="px-4 mt-3">
       <div className="flex items-center justify-between">
